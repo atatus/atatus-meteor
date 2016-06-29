@@ -1,0 +1,5 @@
+#Ignore temp and swp files
+*~
+*.swp
+*.tmp
+

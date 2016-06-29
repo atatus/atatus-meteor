@@ -1,0 +1,9 @@
+{
+  "name": "atatus",
+  "description": "Atatus integration in both the client.",
+  "homepage": "https://github.com/atatus/atatus-meteor",
+  "author": "Atatus <hello@atatus.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/atatus/atatus-meteor.git",
+  "packages": {}
+}
