@@ -5,8 +5,7 @@ Atatus with Meteor
 
 [Signup for Atatus](https://www.atatus.com/signup).
 
-Installation
-============
+### Installation
 
 Add package using `meteor install atatus:atatus`
 
@@ -39,8 +38,7 @@ configuration to atatus and it is optional.
 
 If you are using the Meteor Accounts package, you can enable user tracking on errors with `trackUser` option.
 
-Notify Error
-============
+### Notify Error
 
 Atatus can capture errors automatically. You can also manually notify error as follows
 ```javascript
