@@ -5,7 +5,7 @@ Atatus with Meteor
 
 [Signup for Atatus](https://www.atatus.com/signup).
 
-Usage
+Installation
 ============
 
 Add package using `meteor install atatus:atatus`
@@ -18,7 +18,7 @@ Meteor.startup(function () {
       client: {
         apiKey: 'YOUR_API_KEY',
         options: {
-            tags: ['user-id', 'premium'],
+            tags: ['paid_user', 'premium'],
             customData: {
               name: "John Doe",
               plan: "premium",
@@ -34,12 +34,15 @@ Meteor.startup(function () {
 });
 ```
 
-where `client.apiKey` is your project's API key. `client.options` is advanced
+where `client.apiKey` is your project's API key. `client.options` is an advanced
 configuration to atatus and it is optional.
 
 If you are using the Meteor Accounts package, you can enable user tracking on errors with `trackUser` option.
 
-You can manually notify error as follows
+Notify Error
+============
+
+Atatus can capture errors automatically. You can also manually notify error as follows
 ```javascript
 AtatusNotifier.notify(new Error('Test error'));
 ```
