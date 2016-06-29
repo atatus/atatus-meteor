@@ -7,7 +7,7 @@ Atatus with Meteor
 
 ### Installation
 
-Add package using `meteor install atatus:atatus`
+Add package using `meteor add atatus:atatus`
 
 Add `AtatusNotifier.initialize(settings)` to `Meteor.startup()` on the client, ie:
 
@@ -23,9 +23,7 @@ Meteor.startup(function () {
               plan: "premium",
               beta_access: true
             },
-            version: '1.0.0',
-            ignoreErrors: ['num.substr is not a function', /Random Exception.*/],
-            allowedDomains: ['acme.com', 'www.acme.com', 'blog.acme.com']
+            version: '1.0.0'
         }
       },
       trackUser: true
