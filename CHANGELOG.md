@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.0.7
+-----
+-  Added regex support for allowed domains
+-  Added Async support
+
 0.0.3
 -----
 -  Updated atatus script to v2.3.12
