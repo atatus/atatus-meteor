@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Integrate with Atatus JS for JavaScript errors and performance metrics',
-  version: '0.1.2',
+  version: '0.1.3',
   name: 'atatus:atatus',
   git: 'https://github.com/atatus/atatus-meteor.git'
 });
