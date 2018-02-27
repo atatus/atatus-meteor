@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.1.4
+-----
+-  Added regex support for AJAX URLs.
+
 0.0.7
 -----
 -  Added regex support for allowed domains
