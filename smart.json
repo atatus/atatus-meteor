@@ -3,7 +3,7 @@
   "description": "Atatus integration for meteor.",
   "homepage": "https://github.com/atatus/atatus-meteor",
   "author": "Atatus <hello@atatus.com>",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "git": "https://github.com/atatus/atatus-meteor.git",
   "packages": {}
 }
