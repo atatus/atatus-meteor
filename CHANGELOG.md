@@ -1,9 +1,13 @@
 Changelog
 =========
 
+0.2.0
+-----
+-  Added release 4.2.0
+
 0.1.6
 -----
--  Added release 4.1.1.
+-  Added release 4.1.1
 
 0.1.5
 -----
