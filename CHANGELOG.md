@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.5.0
+-----
+-  Added release 4.6.5
+
 0.4.0
 -----
 -  Added release 4.5.0
